@@ -1,8 +1,20 @@
 body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 50px;
-	color:peachpuff;
-	text-align:center;
+	color:black;
+	text-align:left;
+}
+
+* {
+	background-color:white;
+}
+
+.homepage {
+	line-height:76px;
+	margin-right:20%;
+	margin-left:3%;
+	margin-top:3%;
+	margin-bottom:3%;
 }
 
 .main {
@@ -11,8 +23,37 @@ body {
 	color:peachpuff;
 }
 
+.important {
+	color: red;
+	cursor:pointer;
+}
+
+.important:hover {
+	font-style:italic;
+}
+
+.oops {
+	line-height:76px;
+	margin-right:20%;
+	margin-left:3%;
+	margin-top:3%;
+	margin-bottom:3%;
+}
+
 a {
-	color:red;
+	color:#7b8a5a;
+	background:transparent;
+	text-decoration: none;
+	border-bottom: 2px solid #7b8a5a;
+}
+
+a:hover {
+	font-style:italic;
+	border:2px solid #eb5657;
+	border-radius:100%;
+	text-decoration: none;
+	cursor:pointer;
+
 }
 
 .background-peach {
@@ -53,47 +94,4 @@ a {
 
 img {
 	width: 100%;
-}
-
-body {
-	cursor: default;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	background: #f2f2f2;
-}
-
-canvas {
-	display: block;
-	margin: 40px auto 20px;
-	border: 10px solid #D2B48C;
-}
-
-p {
-	font-size: 19px;
-	display: block;
-	width: 400px;
-	margin: 0px auto;
-	text-align: center;
-}
-
-.info {
-	margin: 14px auto;
-	text-align: justify;
-	font-size: 18px;
-	color: #999;
-}
-
-label {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	color: #555;
-	width: 400px;
-	margin: 0 auto;
-	display: block;
 }
