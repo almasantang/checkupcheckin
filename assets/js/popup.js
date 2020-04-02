@@ -14,10 +14,7 @@ $('.popup').click(function() {
 var headline = document.getElementById("clickHeadline");
 headline.onclick = function() {
 	headline.innerHTML="You have no unread message :-)";
-	}
-headline.onclick = function() {
 	document.getElementById("clickHeadline").style.color = 'black';
-}
-
+	}
 
 });
