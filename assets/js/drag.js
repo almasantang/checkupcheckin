@@ -98,4 +98,8 @@ function dragElement(elmnt) {
   }
 }
 
+$('.popup').click(function() {
+	$('.popup').removeClass('mydivheader');
+});
+
 });
