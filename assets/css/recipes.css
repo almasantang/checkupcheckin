@@ -13,7 +13,21 @@ body {
 
 .homepage-recipes {
 	color:peachpuff;
+	font-size: 18px;
+	line-height:150%;
 }
+
+@media screen and (min-width: 320px) {
+  .homepage-recipes {
+    font-size: calc(18px + 32 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .homepage-recipes {
+    font-size: 50px;
+  }
+}
+
 
 a {
 	color:peachpuff;
@@ -27,21 +41,51 @@ a:hover {
 	border-radius:100%;
 	text-decoration: none;
 	cursor:pointer;
-
 }
 
-a img { 
-	display:none; 
-}
+.recipe img{ 
+	display:none; }
 
-a:hover img {
+.choc-mint-brownies:hover img {
 	height:100vh;
 	width:100vw;
 	position:fixed;
+	top:25vh;
+	left:50vw;
 	display:block;
 	align-items:center;
-	margin-left:30vw;
-	margin-top:20vh;
+	justify-content: center;
+	text-align:center;
+	background:transparent;
+	height:45vh;
+	width:auto;
+	z-index:-1;
+}
+
+.cinnamon-rolls:hover img {
+	height:100vh;
+	width:100vw;
+	position:fixed;
+	top:30vh;
+	left:20vw;
+	display:block;
+	align-items:center;
+	justify-content: center;
+	text-align:center;
+	background:transparent;
+	height:45vh;
+	width:auto;
+	z-index:-1;
+}
+
+.indo-butter-chicken:hover img {
+	height:100vh;
+	width:100vw;
+	position:fixed;
+	top:40vh;
+	left:25vw;
+	display:block;
+	align-items:center;
 	justify-content: center;
 	text-align:center;
 	background:transparent;
